@@ -1,0 +1,9 @@
+project_plan.txt
+.env
+ai_env
+data/
+logs/
+__pycache__/
+*.pdf
+*.jsonl
+*.md

@@ -1,0 +1,89 @@
+# configs/config.yaml
+
+project:
+  name: "Enterprise-AI-Assistant"
+  version: "1.0.0"
+  environment: "development"
+
+# ============================================================
+# PATHS
+# ============================================================
+paths:
+  data_raw: "data/raw"
+  data_processed_markdown: "data/processed/markdown"
+  data_processed_chunks: "data/processed/chunks"
+  data_evaluation: "data/evaluation"
+  data_train: "data/train"
+  logs: "logs"
+
+# ============================================================
+# INGESTION
+# ============================================================
+ingestion:
+  parser: "llamaparse"
+  parsing_instruction: >
+    This is a complex annual financial report containing heavy tables,
+    numbers, and structured sections. Extract tables accurately in markdown format.
+    Preserve section titles and page structure.
+  chunk_strategy: "markdown_header_aware"
+  chunk_size: 800
+  chunk_overlap: 100
+
+# ============================================================
+# RETRIEVAL
+# ============================================================
+retrieval:
+  embedding:
+    provider: "huggingface"
+    model_name: "BAAI/bge-m3"
+    dimension: 1024
+  dense:
+    top_k: 20
+  sparse:
+    top_k: 20
+  fusion:
+    method: "rrf"  # Reciprocal Rank Fusion
+  reranker:
+    provider: "cohere"
+    model_name: "rerank-english-v3.0"
+    top_n: 5
+
+# ============================================================
+# LLM
+# ============================================================
+llm:
+  fast_agent:
+    provider: "groq"
+    model: "llama-3.3-70b-versatile"   
+    temperature: 0.0
+  complex_analyst:
+    provider: "google"
+    model: "gemini-2.0-flash"         
+    max_tokens: 8192
+    temperature: 0.1
+
+# ============================================================
+# VECTOR DB
+# ============================================================
+vector_db:
+  provider: "qdrant"
+  collection_name: "bank_reports_2025"
+
+# ============================================================
+# EVALUATION
+# ============================================================
+evaluation:
+  test_set_path: "data/evaluation/test_set.jsonl"
+  metrics:
+    - "recall@10"
+    - "ndcg@10"
+    - "mrr"
+    - "groundedness"
+    - "hallucination_rate"
+
+# ============================================================
+# LOGGING
+# ============================================================
+logging:
+  config_path: "configs/logging.yaml"
+  level: "INFO"

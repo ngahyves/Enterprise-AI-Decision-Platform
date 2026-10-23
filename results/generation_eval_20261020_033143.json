@@ -1,0 +1,325 @@
+{
+  "timestamp": "2026-10-20T03:31:43.317356",
+  "judge_model": "gemini-3.5-flash-lite",
+  "test_mode": false,
+  "n_test_cases": 39,
+  "scores": {
+    "Faithfulness": 0.9241147741147742,
+    "Answer Relevancy": 0.9917817225509534,
+    "Contextual Recall": 0.5424908424908426
+  },
+  "per_question": [
+    {
+      "input": "What was the total cumulative amount mobilized or invested by RBC toward climate solutions and sustainable finance by the end of fiscal 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What specific emissions reduction targets did RBC outline for its high-emitting lending portfolios in the 2025 sustainability report?",
+      "scores": {
+        "Faithfulness": 0.75,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What milestones or progress did RBC disclose regarding its goal to achieve net-zero operations by 2050?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.0
+      }
+    },
+    {
+      "input": "How does RBC define its sustainable finance framework and eligibility criteria in its latest 2025 disclosures?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What specific initiatives did RBC launch in 2025 to support community investments and social impact programs?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.5
+      }
+    },
+    {
+      "input": "What data or metrics did RBC provide concerning diversity and inclusion representation within its executive leadership teams in 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.3333333333333333
+      }
+    },
+    {
+      "input": "Did RBC disclose any updates regarding its governance structure for managing climate-related risks and opportunities at the board level?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.0
+      }
+    },
+    {
+      "input": "What actions did RBC emphasize in 2025 to reduce operational emissions from its own facilities and energy use?",
+      "scores": {
+        "Faithfulness": 0.8333333333333334,
+        "Answer Relevancy": 0.8461538461538461,
+        "Contextual Recall": 0.0
+      }
+    },
+    {
+      "input": "How does RBC integrate climate risk into its executive compensation?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What challenges or data limitations did RBC note regarding the tracking of its Scope 3 financed emissions in 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.6666666666666666
+      }
+    },
+    {
+      "input": "What was TD's exact reported total revenue for the full fiscal year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.3333333333333333
+      }
+    },
+    {
+      "input": "What was the final adjusted revenue highlighted by TD Bank after accounting for items of note in 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What legal settlement drove TD's non-recurring adjustments in 2025, and what was its impact on reported results?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.25
+      }
+    },
+    {
+      "input": "What was the net income contribution of TD's U.S. Retail Banking segment to the bank's total earnings in 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.0
+      }
+    },
+    {
+      "input": "What was the total volume of impaired loans identified on TD's balance sheet at the end of fiscal 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "What strategic actions did TD's management execute in 2025 to build the bank for the future and strengthen compliance?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.5
+      }
+    },
+    {
+      "input": "What details did TD disclose regarding its total capital ratio compliance in the 2025 financial notes?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.16666666666666666
+      }
+    },
+    {
+      "input": "Find the exact amount TD allocated for non-interest expenses in its 2025 corporate summary.",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "What was the final efficiency ratio reported by TD Bank for the full fiscal year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.5
+      }
+    },
+    {
+      "input": "What was the total net interest income recorded by Scotiabank in its 2025 financial statements?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "How did Scotiabank's reported net income evolve between 2024 and 2025, and what drove the change?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.4
+      }
+    },
+    {
+      "input": "What was the diluted Earnings Per Share (EPS) reported by Scotiabank for the fiscal year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "Did Scotiabank's International Banking division show a net income growth or decline in 2025 according to their segment analysis?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.2
+      }
+    },
+    {
+      "input": "What was the final productivity or efficiency ratio reported by Scotiabank for the full year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.25
+      }
+    },
+    {
+      "input": "What was the total amount of non-GAAP adjusting items impacting Scotiabank's non-interest expenses in 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.8571428571428571
+      }
+    },
+    {
+      "input": "What was the exact dollar value of Provision for Credit Losses (PCL) recorded by Scotiabank in fiscal 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "Did Scotiabank outline any specific operational risks regarding digital banking security or cyber threats in its 2025 notes?",
+      "scores": {
+        "Faithfulness": 0.6,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.8
+      }
+    },
+    {
+      "input": "What was the return on equity (ROE) percentage achieved by Scotiabank for the full year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.2
+      }
+    },
+    {
+      "input": "What was the total volume of deposits held on Scotiabank's balance sheet at the end of fiscal 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.3333333333333333
+      }
+    },
+    {
+      "input": "What are the total reported assets for BMO in its latest 2025 financial statements?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.5
+      }
+    },
+    {
+      "input": "What was the total revenue generated by BMO's Wealth Management division for the full year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.75
+      }
+    },
+    {
+      "input": "What was the total value of Provisions for Credit Losses (PCL) recorded in BMO's 2025 financial highlights?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.0
+      }
+    },
+    {
+      "input": "What was the specific dollar volume of deposits reported by BMO at the end of the fiscal year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.3333333333333333
+      }
+    },
+    {
+      "input": "What was the return on equity (ROE) percentage achieved by BMO for the full year 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.6
+      }
+    },
+    {
+      "input": "What dividend per share did BMO declare in fiscal 2025, and what was its payout ratio",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "What were the total non-interest expenses reported by BMO in its 2025 operational breakdown?",
+      "scores": {
+        "Faithfulness": 0.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    },
+    {
+      "input": "Did BMO provide any qualitative details regarding its integration costs or corporate acquisitions during 2025?",
+      "scores": {
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 0.8333333333333334,
+        "Contextual Recall": 0.6
+      }
+    },
+    {
+      "input": "What was the net income recorded by BMO's Canadian Personal and Commercial Banking unit in 2025?",
+      "scores": {
+        "Faithfulness": 0.0,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 0.3333333333333333
+      }
+    },
+    {
+      "input": "What enterprise-wide climate targets and commitments did RBC outline in its 2025 Climate Blueprint?",
+      "scores": {
+        "Faithfulness": 0.8571428571428571,
+        "Answer Relevancy": 1.0,
+        "Contextual Recall": 1.0
+      }
+    }
+  ]
+}

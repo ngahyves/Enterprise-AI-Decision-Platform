@@ -1,1 +1,46 @@
 project_plan.txt
+test.py
+test_pi.py
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+ai_env/
+test_env/
+venv/
+env/
+
+# Data (not needed at runtime — Qdrant already has the chunks)
+data/
+qdrant_storage/
+results/
+docs/
+
+# Scripts (dev only, not needed in prod API)
+scripts/
+tests/
+
+# Git
+.git/
+.gitignore
+
+# Local config
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Docs
+*.md
+!README.md

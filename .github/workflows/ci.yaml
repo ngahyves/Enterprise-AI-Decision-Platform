@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pytest numpy langchain-core fastapi python-dotenv httpx
+
+      - name: Run tests
+        run: |
+          pytest tests/test_guardrails.py tests/test_retrieval_metrics.py tests/test_ground_truth.py -v

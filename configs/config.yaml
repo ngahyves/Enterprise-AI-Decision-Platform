@@ -11,6 +11,7 @@ project:
 paths:
   data_raw: "data/raw"
   data_processed_markdown: "data/processed/markdown"
+  data_processed_structured: "data/processed/structured"
   data_processed_chunks: "data/processed/chunks"
   data_evaluation: "data/evaluation"
   data_train: "data/train"
@@ -22,12 +23,15 @@ paths:
 ingestion:
   parser: "llamaparse"
   parsing_instruction: >
-    This is a complex annual financial report containing heavy tables,
-    numbers, and structured sections. Extract tables accurately in markdown format.
-    Preserve section titles and page structure.
+    This is a Canadian bank annual report with dense financial tables.
+    For every table:
+      - preserve each row as an independent unit with its metric name
+      - keep the year columns, units (millions/billions), and footnotes attached to the values
+      - do not merge or summarize rows
+      - preserve section headers and page structure
   chunk_strategy: "markdown_header_aware"
-  chunk_size: 800
-  chunk_overlap: 100
+  chunk_size: 4000
+  chunk_overlap: 400
 
 # ============================================================
 # RETRIEVAL
@@ -38,15 +42,23 @@ retrieval:
     model_name: "BAAI/bge-m3"
     dimension: 1024
   dense:
-    top_k: 20
+    top_k: 50
   sparse:
-    top_k: 20
+    top_k: 50
   fusion:
     method: "rrf"  # Reciprocal Rank Fusion
   reranker:
-    provider: "cohere"
-    model_name: "rerank-english-v3.0"
+    provider: "huggingface"
+    model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
     top_n: 5
+
+# ============================================================
+# RAG EVALUATION
+# ============================================================
+evaluation:
+  ragas_max_samples: 25       # Number of questions evaluated by RAGAS (protects free tier quota)
+  ragas_batch_size: 2         # Number of questions per RAGAS batch
+  ragas_batch_delay: 30       # Seconds between RAGAS batches (rate limit protection)
 
 # ============================================================
 # LLM
@@ -54,12 +66,11 @@ retrieval:
 llm:
   fast_agent:
     provider: "groq"
-    model: "llama-3.3-70b-versatile"   
+    model: "openai/gpt-oss-20b"        
     temperature: 0.0
   complex_analyst:
-    provider: "google"
-    model: "gemini-2.0-flash"         
-    max_tokens: 8192
+    provider: "groq"
+    model: "openai/gpt-oss-120b"       
     temperature: 0.1
 
 # ============================================================
@@ -67,6 +78,8 @@ llm:
 # ============================================================
 vector_db:
   provider: "qdrant"
+  host: "localhost"
+  port: 6333
   collection_name: "bank_reports_2025"
 
 # ============================================================
@@ -87,3 +100,12 @@ evaluation:
 logging:
   config_path: "configs/logging.yaml"
   level: "INFO"
+
+# ============================================================
+# CACHE
+# ============================================================
+cache:
+  redis_host: "localhost"
+  redis_port: 6379
+  ttl_seconds: 3600
+  key_prefix: "rag:q:"

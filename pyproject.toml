@@ -9,3 +9,4 @@ dev = ["pytest>=8.0", "httpx>=0.27", "python-dotenv"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra --tb=short"
+pythonpath = ["."]

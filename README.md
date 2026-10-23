@@ -1,5 +1,5 @@
 
-
+[![CI](https://github.com/ngahyves/Enterprise-AI-Decision-Platform/actions/workflows/ci.yaml/badge.svg)](https://github.com/ngahyves/Enterprise-AI-Decision-Platform/actions/workflows/ci.yaml)
 
     ▸ Built a RAG system on 4 Canadian bank annual reports (~1,000 pages, 8,990 chunks with dense financial tables) where standard PyMuPDF parsing destroyed table structure; migrated to LlamaParse JSON extraction, then implemented row-level chunking from structured JSON and dual chunkers (narrative vs tables), lifting Recall@10 from 0.14 to 0.91 and MRR from 0.30 to 0.79 on 39 manually verified questions.
 

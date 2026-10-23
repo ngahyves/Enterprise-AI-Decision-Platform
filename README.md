@@ -3,7 +3,7 @@
 [![CI](https://github.com/ngahyves/Enterprise-AI-Decision-Platform/actions/workflows/ci.yaml/badge.svg)](https://github.com/ngahyves/Enterprise-AI-Decision-Platform/actions/workflows/ci.yaml)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![Tests](https://img.shields.io/badge/tests-29%20passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 
 > A RAG system that answers natural-language questions about the **2025 annual reports of RBC, TD, BMO, and Scotiabank** — 4 PDFs, ~300 pages each, dense financial tables. Built end-to-end: from PDF parsing to a secure API, with Prometheus + Grafana observability and a 25-test CI pipeline.
 
@@ -150,7 +150,7 @@ Now covered by: tests/test_ground_truth.py (asserts 50 questions, 39 verified, n
 **BMO R@10: 0.05 → 0.23. A real +0.18 gain on 3 questions.**
 
 
-### The results
+## The results
 
 ### Retrieval — 4 architectures, 39 verified questions
 
@@ -239,7 +239,8 @@ What I tried to fix it
 The cache turns a demo-only system into something usable for repeated questions. It's not a fix for cold-path latency — it's a mitigation that makes the project viable for portfolio demos.
 
 In production: a GPU (T4/A10) drops the reranker to <500 ms. ONNX Runtime gets to ~40 s on CPU without quality loss. Both are documented in the roadmap, neither is deployed.
-The systems work
+
+## The systems work
 
 ### Why 8 nodes instead of one big prompt?
 
@@ -377,7 +378,7 @@ grafana/            Provisioned datasources + dashboards
 
     - 97 s cold latency. CPU-bound on the cross-encoder. Needs GPU or ONNX Runtime for production.
 
-    0.01 req/s throughput. One user at a time in cold mode. Redis cache raises this to ~0.5 req/s.
+    - 0.01 req/s throughput. One user at a time in cold mode. Redis cache raises this to ~0.5 req/s.
 
     - No PII redaction. Acceptable for public annual reports. Required for customer data (PIPEDA, OSFI B-13).
 
@@ -385,5 +386,22 @@ grafana/            Provisioned datasources + dashboards
 
     - Windows-specific 2s HTTP overhead on the cached path. Would be 50–200 ms on Linux with keepalive.
 
+# Future improvements
+
+- GPU deployment (reranker < 500 ms)
+
+- ONNX Runtime for CPU (~40 s, no quality loss)
+
+- Contextual chunk enrichment (IEEE BigData 2025: +27% MRR)
+
+- PII redaction layer (Presidio + Canadian rules)
+
+- Verify the 11 remaining ground-truth questions
+
+- Migrate DeepEval judge to a local 7B model (drop Gemini dependency)
+
 ## Author:
 NGAH Yves-Bernard-Simplice - ***Machine Learning Engineer***
+
+## License
+![License](https://img.shields.io/badge/license-MIT-lightgrey)

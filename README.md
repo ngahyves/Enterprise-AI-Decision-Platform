@@ -206,6 +206,8 @@ Total measured: ~97.4 s, of which ~99% is the Retriever (see latency analysis be
 
 ## The hard truth about latency
 
+I profiled with LangSmith, node by node:I profiled with **LangSmith**, node by node. To reproduce, set `LANGCHAIN_API_KEY`, `LANGCHAIN_TRACING_V2=true`, and `LANGCHAIN_PROJECT` in your `.env` (see [Prerequisites](#prerequisites)); each `/v1/ask` call will then appear as a trace at [smith.langchain.com](https://smith.langchain.com).
+
 My first measurement: **130 seconds per query**. Hypothesis: the 4 LLM calls are slow.
 
 I profiled with LangSmith, node by node:
@@ -288,10 +290,16 @@ Once the retrieval was decent, the engineering around it mattered.
 - **Docker Desktop** (or Docker Engine + Compose v2)
 - **~10 GB free disk** (7 GB models + 38 MB PDFs + ~1 GB images)
 - **~8 GB RAM** (models are lazy-loaded, but the reranker needs headroom)
-- API keys (all free tier):
-  - [Groq](https://console.groq.com) → `GROQ_API_KEY`
-  - [LlamaCloud](https://cloud.llamaindex.ai) → `LLAMA_CLOUD_API_KEY`
-  - [Google AI Studio](https://aistudio.google.com) → `GEMINI_API_KEY` (for DeepEval)
+
+### API keys (all free tier):
+
+| Variable | Service | Required? | Used for |
+|---|---|:---:|---|
+| `GROQ_API_KEY` | [Groq](https://console.groq.com) | ✅ Yes | LLM calls (extract + synthesize) |
+| `API_KEY` | *(you choose any string)* | ✅ Yes | Auth on `/v1/ask` |
+| `LLAMA_CLOUD_API_KEY` | [LlamaCloud](https://cloud.llamaindex.ai) | ⚠️ Only for re-ingestion | Parsing PDFs (skipped if using committed chunks) |
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com) | ⚠️ Optional | DeepEval judge (evaluation only) |
+| `LANGCHAIN_API_KEY` | [LangSmith](https://smith.langchain.com) | ⚠️ Optional | Tracing + latency profiling (shown in this README) |
 
 ### 1. Clone and configure
 
@@ -300,6 +308,20 @@ git clone https://github.com/ngahyves/Enterprise-AI-Decision-Platform.git
 cd Enterprise-AI-Decision-Platform
 cp .env.example .env
 # Edit .env — fill in API_KEY, GROQ_API_KEY, LLAMA_CLOUD_API_KEY, GEMINI_API_KEY
+# ── Required to run the API
+API_KEY=my-local-dev-key
+GROQ_API_KEY=gsk_...
+
+# ── Required only if you re-ingest PDFs (skipped in step 3 if using committed chunks)
+LLAMA_CLOUD_API_KEY=llx_...
+
+# ── Optional — LangSmith tracing (reproduces the latency profiling shown below)
+LANGCHAIN_API_KEY=lsv2_...
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=enterprise-ai-assistant
+
+# ── Optional — only if you re-run DeepEval
+GEMINI_API_KEY=...
 ```
 ### 2. Start infrastructure first
 ```bash
@@ -317,6 +339,8 @@ docker compose run --rm api python -m src.retrieval.vector_store
 Expected output: Loaded 8990 chunks into collection 'bank_reports'.
 
     - Why manual? Re-indexing re-runs BGE-M3 embeddings on 8,990 chunks (~3 min on CPU). Making it automatic would slow down every docker compose up. Run once, then forget it.
+
+    - > **No `LLAMA_CLOUD_API_KEY` needed here** — the chunks in `data/processed/chunks/*.jsonl` are already parsed and committed. You only need that key if you re-run the ingestion pipeline on raw PDFs.
 ### 4. Start the full stack
 ```bash
 docker compose up -d --build

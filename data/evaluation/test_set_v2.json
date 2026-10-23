@@ -1,0 +1,1438 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "What was the total cumulative amount mobilized or invested by RBC toward climate solutions and sustainable finance by the end of fiscal 2025?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "climate solutions",
+      "sustainable finance",
+      "cumulative",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_126",
+      "RBC_Annual_Report_2025_chunk_124"
+    ],
+    "reference_answer": "RBC has committed to $1 billion in climate investment commitments by 2030. As of fiscal 2025, RBC reported cumulative climate investment commitments of $249 million (2025), with a goal of $1 billion by 2030.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_row_15_4",
+      "RBC_Annual_Report_2025_row_56_0",
+      "RBC_Annual_Report_2025_narrative_25",
+      "RBC_Annual_Report_2025_narrative_93",
+      "RBC_Annual_Report_2025_narrative_127"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_127"
+    ]
+  },
+  {
+    "question_id": "Q2",
+    "question": "What specific emissions reduction targets did RBC outline for its high-emitting lending portfolios in the 2025 sustainability report?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "emissions reduction",
+      "targets",
+      "lending portfolios",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_21",
+      "RBC_Annual_Report_2025_chunk_99",
+      "RBC_Annual_Report_2025_chunk_23"
+    ],
+    "reference_answer": "RBC set 2030 physical emissions intensity reduction targets (Interim Targets) for three sectors: oil and gas, power generation, and automotive. These targets were set in 2022 and were being reviewed in 2024 to determine if they remain appropriate. RBC's ambition is to achieve net-zero emissions in its lending by 2050.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_94",
+      "RBC_Annual_Report_2025_narrative_95",
+      "RBC_Annual_Report_2025_narrative_108",
+      "RBC_Annual_Report_2025_narrative_110",
+      "RBC_Annual_Report_2025_narrative_112"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_94"
+    ]
+  },
+  {
+    "question_id": "Q3",
+    "question": "What milestones or progress did RBC disclose regarding its goal to achieve net-zero operations by 2050?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "net-zero",
+      "2050",
+      "milestones",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_133"
+    ],
+    "reference_answer": "In 2025, RBC implemented a climate data management platform to facilitate the calculation of its operational emissions and energy consumption metrics. RBC also performed a detailed review of the underlying data and methodology for calculating its operational emissions. In 2026, RBC intends to work with suppliers to reduce emissions in the supply chain (currently in the planning phase).",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_21",
+      "RBC_Annual_Report_2025_narrative_25",
+      "RBC_Annual_Report_2025_narrative_30",
+      "RBC_Annual_Report_2025_narrative_37",
+      "RBC_Annual_Report_2025_narrative_39"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_95"
+    ]
+  },
+  {
+    "question_id": "Q4",
+    "question": "How does RBC define its sustainable finance framework and eligibility criteria in its latest 2025 disclosures?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "sustainable finance",
+      "framework",
+      "eligibility",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_92",
+      "RBC_Annual_Report_2025_chunk_81"
+    ],
+    "reference_answer": "RBC defines sustainable finance as part of its sustainability impact levers. Providing advice and financing to clients and communities is central to RBC's Purpose. Certain RBC financing activities support its goal to be the bank of choice for the transition to a low-carbon and resilient economy. RBC's climate strategy focuses on providing advice and financing to clients to support them in the transition.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_1",
+      "RBC_Annual_Report_2025_narrative_21",
+      "RBC_Annual_Report_2025_narrative_25",
+      "RBC_Annual_Report_2025_narrative_36",
+      "RBC_Annual_Report_2025_narrative_43"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_18"
+    ]
+  },
+  {
+    "question_id": "Q5",
+    "question": "What specific initiatives did RBC launch in 2025 to support community investments and social impact programs?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "community investments",
+      "social impact",
+      "initiatives",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_81",
+      "RBC_Annual_Report_2025_chunk_125",
+      "RBC_Annual_Report_2025_chunk_82"
+    ],
+    "reference_answer": "In 2025, RBC provided $137 million in cash donations and $72 million in community investments (compared to $133M and $51M in 2024). RBC, RBC Foundation and RBC Foundation USA committed to $2 billion in community investments by 2035, and in 2025 (the first year of this commitment), they supported over 190 community investment partners advancing climate mitigation and/or nature-based solutions.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_row_37_0",
+      "RBC_Annual_Report_2025_row_60_3",
+      "RBC_Annual_Report_2025_row_60_14",
+      "RBC_Annual_Report_2025_narrative_25",
+      "RBC_Annual_Report_2025_narrative_30"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_81"
+    ]
+  },
+  {
+    "question_id": "Q6",
+    "question": "What data or metrics did RBC provide concerning diversity and inclusion representation within its executive leadership teams in 2025?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "diversity",
+      "inclusion",
+      "executive leadership",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_160",
+      "RBC_Annual_Report_2025_chunk_157",
+      "RBC_Annual_Report_2025_chunk_161",
+      "RBC_Annual_Report_2025_chunk_156"
+    ],
+    "reference_answer": "RBC discloses representation metrics for its executive leadership through Table 23: Leadership representation (Sustainability Report 2025, p.74), which reports the proportion of women in Group Executive positions for 2025, 2024 and 2023. This is complemented by its Representation monitoring framework (p.73), the Workforce composition and inclusion section (p.73), and the Inclusion section (p.75) describing how RBC fosters an inclusive environment. RBC also reports broader workforce representation in Table 22 (Overall representation, p.74) and Board of Directors representation in Table 38 (Appendix 6).",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_47",
+      "RBC_Annual_Report_2025_narrative_51",
+      "RBC_Annual_Report_2025_narrative_55",
+      "RBC_Annual_Report_2025_narrative_58",
+      "RBC_Annual_Report_2025_narrative_64"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_row_111_8"
+    ]
+  },
+  {
+    "question_id": "Q7",
+    "question": "Did RBC disclose any updates regarding its governance structure for managing climate-related risks and opportunities at the board level?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "governance",
+      "climate-related risks",
+      "board",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_147",
+      "RBC_Annual_Report_2025_chunk_46",
+      "RBC_Annual_Report_2025_chunk_44",
+      "RBC_Annual_Report_2025_chunk_49",
+      "RBC_Annual_Report_2025_chunk_50"
+    ],
+    "reference_answer": "Yes. RBC discloses that the Board oversees management of and the enterprise approach to E&S risk, including climate-related risk, with the Risk Committee of the Board overseeing significant and emerging risks (Sustainability Report 2025, Oversight of Climate-Related Risk). Table 2: Board oversight responsibilities (p.21) details the Board and Board Committees' 2025 climate-related responsibilities. The sustainability governance and oversight model (p.20) and management-level bodies (Executive Sustainability Council, p.23) complement this board-level oversight.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_44",
+      "RBC_Annual_Report_2025_narrative_45",
+      "RBC_Annual_Report_2025_narrative_46",
+      "RBC_Annual_Report_2025_narrative_52",
+      "RBC_Annual_Report_2025_narrative_55"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_49"
+    ]
+  },
+  {
+    "question_id": "Q8",
+    "question": "What actions did RBC emphasize in 2025 to reduce operational emissions from its own facilities and energy use?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "environmental impact",
+      "real estate",
+      "data centers",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_138",
+      "RBC_Annual_Report_2025_chunk_149"
+    ],
+    "reference_answer": "In 2025, RBC reported that its Scope 1 & 2 market-based operational emissions decreased by 69,113 tonnes of CO2e, or 70%, from its 2018 baseline. This reflects a 95% reduction in Scope 2 market-based emissions (70,219 tonnes CO2e), partially offset by a 1,106 tonne CO2e increase in Scope 1 emissions. RBC also discloses its energy use (heating fuel, electricity) in Table 20: Energy use (Sustainability Report 2025, p.69).",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_row_15_6",
+      "RBC_Annual_Report_2025_row_15_13",
+      "RBC_Annual_Report_2025_row_60_1",
+      "RBC_Annual_Report_2025_row_60_2",
+      "RBC_Annual_Report_2025_row_60_3"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_138"
+    ]
+  },
+  {
+    "question_id": "Q9",
+    "question": "How does RBC integrate climate risk into its executive compensation?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "climate risk",
+      "executive compensation",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_54",
+      "RBC_Annual_Report_2025_chunk_218"
+    ],
+    "reference_answer": "RBC integrates climate risk into executive compensation through its mid-term incentive (MTI) and long-term incentive (LTI) programs. Since 2023, the CEO and Group Executive have medium-term climate-based objectives tied to The RBC Climate Blueprint. Their climate-focused performance is assessed by the Board, which applies a modifier to MTI and LTI awards based on their actions supporting RBC's climate strategy. Individual performance objectives in the short-term incentive program also include sustainability-related contributions (Sustainability Report 2025, p.24). Additional details are provided in the 'Sustainability-related factors in executive compensation' section of the 2026 Management Proxy Circular (referenced in endnote 1).",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_1",
+      "RBC_Annual_Report_2025_narrative_7",
+      "RBC_Annual_Report_2025_narrative_11",
+      "RBC_Annual_Report_2025_narrative_21",
+      "RBC_Annual_Report_2025_narrative_23"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_58"
+    ]
+  },
+  {
+    "question_id": "Q10",
+    "question": "What challenges or data limitations did RBC note regarding the tracking of its Scope 3 financed emissions in 2025?",
+    "category": "Strategy_ESG",
+    "expected_bank": "RBC",
+    "expected_document_id": "RBC_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "Scope 3",
+      "financed emissions",
+      "data limitations",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_274",
+      "RBC_Annual_Report_2025_chunk_148",
+      "RBC_Annual_Report_2025_chunk_272"
+    ],
+    "reference_answer": "RBC highlighted several data limitations for tracking Scope 3 financed emissions in 2025. Client emissions data is collected from public sources, client engagement and third-party vendors, and where client-reported data is unavailable, emission factors are used as proxies. Data availability, quality and reliability vary considerably by sector, sub-sector and scope; Scope 3 emissions are less frequently reported by clients than Scope 1 and 2, making client-level Scope 3 data a persistent challenge (Appendix 5: Data sources and availability). In 2025, RBC updated its methodology for oil and gas Scope 3 emissions to estimate client emissions based on production volumes. RBC also reports PCAF data quality scores (1 = more certain, 5 = less certain), which illustrate variability in underlying data accuracy (Table 19). Sector boundary definitions (Table 36) further note exclusions to avoid double counting, such as midstream and downstream Scope 3 for oil and gas.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_narrative_39",
+      "RBC_Annual_Report_2025_narrative_149",
+      "RBC_Annual_Report_2025_narrative_256",
+      "RBC_Annual_Report_2025_narrative_315",
+      "RBC_Annual_Report_2025_narrative_321"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_narrative_97"
+    ]
+  },
+  {
+    "question_id": "Q11",
+    "question": "What was TD's exact reported total revenue for the full fiscal year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "total revenue",
+      "2025",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67",
+      "TD_Annual_report_2025_chunk_382",
+      "TD_Annual_report_2025_chunk_436",
+      "TD_Annual_report_2025_chunk_12"
+    ],
+    "reference_answer": "TD reported total revenue (reported) of $67,777 million CAD for the full fiscal year 2025 (year ended October 31, 2025), compared with $57,223 million in 2024. Adjusted total revenue was $61,810 million. This figure appears in TD's Financial Highlights, the Consolidated Statement of Income, and the Select Annual Information table (2025 Annual Report). The rounded figure of $67.78 billion is also disclosed in the Financial Performance and Shareholder Value section.",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_4_0",
+      "TD_Annual_report_2025_row_134_0",
+      "TD_Annual_report_2025_row_233_2",
+      "TD_Annual_report_2025_row_241_2",
+      "TD_Annual_report_2025_narrative_62"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_row_241_2"
+    ]
+  },
+  {
+    "question_id": "Q12",
+    "question": "What was the final adjusted revenue highlighted by TD Bank after accounting for items of note in 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "adjusted revenue",
+      "restructuring",
+      "2025",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_12",
+      "TD_Annual_report_2025_chunk_67",
+      "TD_Annual_report_2025_chunk_73",
+      "TD_Annual_report_2025_chunk_89"
+    ],
+    "reference_answer": "TD's adjusted revenue for fiscal 2025 was $61,810 million CAD (vs. reported total revenue of $67,777 million). The adjustment reflects 'items of note' including $686 million pre-tax of restructuring charges incurred in 2025 (related to cost-base reduction and efficiency measures), as well as other non-recurring items (BSA/AML, First Horizon, Schwab). The rounded figure of $61.81 billion is disclosed in TD's Financial Performance and Shareholder Value section, and the precise $61,810M appears in Financial Highlights and the reconciliation of adjusted to reported results.",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_4_1",
+      "TD_Annual_report_2025_row_42_2",
+      "TD_Annual_report_2025_row_44_2",
+      "TD_Annual_report_2025_row_124_35",
+      "TD_Annual_report_2025_row_134_0"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_62"
+    ]
+  },
+  {
+    "question_id": "Q13",
+    "question": "What legal settlement drove TD's non-recurring adjustments in 2025, and what was its impact on reported results?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "BSA/AML",
+      "global resolution",
+      "legal settlement",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_74",
+      "TD_Annual_report_2025_chunk_89",
+      "TD_Annual_report_2025_chunk_104",
+      "TD_Annual_report_2025_chunk_640"
+    ],
+    "reference_answer": "The legal settlement was the Global Resolution announced on October 10, 2024, related to TD's U.S. BSA/AML program, reached with the OCC, FRB, FinCEN, and DOJ. TD agreed to a total payment of US$3.088 billion (C$4.233 billion), all provisioned during fiscal 2024 and reported as a $4,233 million charge in the U.S. Retail segment. The settlement also included guilty pleas by TD Bank N.A. and TD Bank US Holding Company, a five-year DOJ probation term, an independent compliance monitorship, and an Asset Limitation of US$434 billion on TD's two U.S. banking subsidiaries. Its impact on reported results was concentrated in FY2024; in FY2025, the absence of this charge (and the FDIC special assessment) contributed to a $1,954 million (6%) decrease in reported non-interest expenses ($33,539M) and a rise in reported net income to $20,538M (vs. $8,842M in 2024)",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_123_10",
+      "TD_Annual_report_2025_row_123_13",
+      "TD_Annual_report_2025_row_124_33",
+      "TD_Annual_report_2025_row_215_1",
+      "TD_Annual_report_2025_row_233_5"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_178"
+    ]
+  },
+  {
+    "question_id": "Q14",
+    "question": "What was the net income contribution of TD's U.S. Retail Banking segment to the bank's total earnings in 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "net income",
+      "U.S. Retail Banking",
+      "segment",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_651",
+      "TD_Annual_report_2025_chunk_141"
+    ],
+    "reference_answer": "TD's U.S. Retail Banking segment reported net income of $1,941 million CAD in fiscal 2025, out of the bank's total reported net income of $20,538 million CAD — representing approximately 9.5% of total earnings. This is disclosed in the Results by Business Segment table (2025 Annual Report), which shows U.S. Retail net income of $1,941M vs. Canadian Personal & Commercial Banking ($7,317M), Wealth Management & Insurance ($2,789M), Wholesale Banking ($1,610M) and Corporate ($6,881M). Note: TD's U.S. Retail segment also reports results in U.S. dollars separately (Table 18), where reported net income was $1,410M USD.",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_44_8",
+      "TD_Annual_report_2025_row_76_1",
+      "TD_Annual_report_2025_row_233_9",
+      "TD_Annual_report_2025_row_241_5",
+      "TD_Annual_report_2025_row_241_9"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_94"
+    ]
+  },
+  {
+    "question_id": "Q15",
+    "question": "What key client-related metrics did TD highlight in its 'Deeper Relationships' section in 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "client-related metrics",
+      "Deeper Relationships",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_16",
+      "TD_Annual_report_2025_chunk_2"
+    ],
+    "reference_answer": "In the 'Deeper Relationships' section of its 2025 Annual Report, TD highlighted: 28 million clients, over 8 million active mobile users, 1,200 wealth advisors in Canada and 500 in the U.S., over 800 frontline business bankers, 1,000 mortgage and investment specialists, and over $115 million in community contributions in 2025. TD also serves more than 10 million U.S. households across 15 states and Washington D.C., with almost 30,000 U.S. colleagues. The bank describes itself as a top-10 North American bank serving over 28 million clients across four key businesses (Who We Are).",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_2_0",
+      "TD_Annual_report_2025_row_13_1",
+      "TD_Annual_report_2025_row_19_18",
+      "TD_Annual_report_2025_row_42_0",
+      "TD_Annual_report_2025_row_46_0"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q16",
+    "question": "What was the total volume of impaired loans identified on TD's balance sheet at the end of fiscal 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "impaired loans",
+      "balance sheet",
+      "2025",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_181",
+      "TD_Annual_report_2025_chunk_186",
+      "TD_Annual_report_2025_chunk_168",
+      "TD_Annual_report_2025_chunk_519"
+    ],
+    "reference_answer": "TD's total impaired loans (carrying value, before Stage 3 allowance) stood at $5,420 million CAD as at October 31, 2025, up from $4,949 million in 2024. After deducting Stage 3 allowances for credit losses of $1,588 million, net impaired loans were $3,832 million (vs. $3,407 million in 2024), representing an increase of $425 million. The change-in-gross-impaired-loans table (Table 32) reconciles the beginning balance of $4,949M, $9,073M classified as impaired during the year, net repayments and write-offs of $4,725M, ending at $5,420M. Note: TD's impaired loans table (Note 8) also reports 'gross impaired loans' of $5,299M (before specific allowances) alongside carrying value of $5,420M — the term 'gross impaired loans' refers to the pre-allowance balance at the loan level.",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_188_5",
+      "TD_Annual_report_2025_row_204_2",
+      "TD_Annual_report_2025_row_241_5",
+      "TD_Annual_report_2025_narrative_103",
+      "TD_Annual_report_2025_narrative_188"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_208"
+    ]
+  },
+  {
+    "question_id": "Q17",
+    "question": "What strategic actions did TD's management execute in 2025 to build the bank for the future and strengthen compliance?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "strategic actions",
+      "compliance",
+      "build the bank",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_68",
+      "TD_Annual_report_2025_chunk_35",
+      "TD_Annual_report_2025_chunk_80",
+      "TD_Annual_report_2025_chunk_138"
+    ],
+    "reference_answer": "In 2025, TD executed a comprehensive Strategic Review that culminated in a new enterprise strategy anchored in three pillars introduced at its 2025 Investor Day: deepening client relationships, driving market leadership, and scaling profitably within its risk appetite. Strategic actions included accelerating growth (digital capabilities, capital allocation to high-return businesses, structural cost reduction, fee income growth) and modernizing infrastructure and processes. To strengthen compliance, TD continued its U.S. BSA/AML remediation program and made ongoing investments to enhance compliance across business units (Canadian Personal Bank, TD Wealth, Canadian Business Bank, TD Bank AMCB, TD Securities) — including strengthening governance and control functions, advancing AML oversight and monitoring, and executing remediation commitments across Financial Crime Risk, Compliance Risk, Insider Risk and Treasury Risk. TD also executed balance sheet restructuring (10% asset reduction, ~US$52B headroom, exit of ~US$22B non-core loans), opened its Layer 6 GenAI R&D center, and completed its investment portfolio repositioning (US$500M pre-tax NII benefit).",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_13_1",
+      "TD_Annual_report_2025_row_23_1",
+      "TD_Annual_report_2025_row_42_0",
+      "TD_Annual_report_2025_row_46_0",
+      "TD_Annual_report_2025_row_46_2"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_68"
+    ]
+  },
+  {
+    "question_id": "Q18",
+    "question": "What details did TD disclose regarding its total capital ratio compliance in the 2025 financial notes?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "total capital ratio",
+      "compliance",
+      "financial notes",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_663",
+      "TD_Annual_report_2025_chunk_205",
+      "TD_Annual_report_2025_chunk_204"
+    ],
+    "reference_answer": "In Note 30 – Regulatory Capital of its 2025 financial statements, TD disclosed a Total Capital ratio of 18.4% as at October 31, 2025, up from 16.8% in 2024. Total Capital stood at $116,866 million, comprising CET1 Capital ($93,579M) and Tier 1 Capital ($104,502M) plus Tier 2 instruments. Risk-weighted assets used in the ratio calculation were $636,424 million. TD manages its regulatory capital in accordance with OSFI's implementation of the Basel III Capital Framework. The bank's regulatory target for Total Capital (Pillar 1 + 2 DSB) is 15.0%, meaning TD's 18.4% ratio was comfortably above the minimum requirement. In the same disclosure, TD reported CET1 ratio of 14.7% (target 11.5%) and Tier 1 ratio of 16.4% (target 13.0%).",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_66_0",
+      "TD_Annual_report_2025_row_76_2",
+      "TD_Annual_report_2025_row_76_5",
+      "TD_Annual_report_2025_row_237_1",
+      "TD_Annual_report_2025_row_237_2"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_67"
+    ]
+  },
+  {
+    "question_id": "Q19",
+    "question": "Find the exact amount TD allocated for non-interest expenses in its 2025 corporate summary.",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "non-interest expenses",
+      "corporate summary",
+      "2025",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67",
+      "TD_Annual_report_2025_chunk_104"
+    ],
+    "reference_answer": "TD allocated $33,539 million CAD in reported non-interest expenses for fiscal 2025, a decrease of $1,954 million (or 6%) compared with $35,493 million in 2024. The decrease was primarily driven by the absence of charges recorded in 2024 for the global resolution of the U.S. BSA/AML investigations and the FDIC special assessment. Adjusted non-interest expenses (excluding items of note) were $32,555 million, up $3,407 million or 12% year-over-year. The figure appears in TD's Financial Highlights and in the Financial Results Overview – Non-Interest Expenses section of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_204_2",
+      "TD_Annual_report_2025_row_233_5",
+      "TD_Annual_report_2025_row_241_5",
+      "TD_Annual_report_2025_narrative_62",
+      "TD_Annual_report_2025_narrative_82"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_184"
+    ]
+  },
+  {
+    "question_id": "Q20",
+    "question": "What was the final efficiency ratio reported by TD Bank for the full fiscal year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "TD",
+    "expected_document_id": "TD_Annual_report_2025",
+    "ground_truth_keywords": [
+      "efficiency ratio",
+      "2025",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67"
+    ],
+    "reference_answer": "TD reported an efficiency ratio of 49.5% for the full fiscal year 2025 (reported basis), a significant improvement from 62.0% in 2024, primarily reflecting the absence of the BSA/AML Global Resolution charge and the FDIC special assessment recorded in 2024, as well as the gain on the Schwab share sale. On an adjusted basis (net of insurance service expenses), the efficiency ratio was 58.4% in 2025, essentially flat compared with 58.1% in 2024. The reported figure appears in TD's Financial Highlights (2025 Annual Report).",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_narrative_105",
+      "TD_Annual_report_2025_narrative_107",
+      "TD_Annual_report_2025_narrative_108"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "TD_Annual_report_2025_narrative_105"
+    ]
+  },
+  {
+    "question_id": "Q21",
+    "question": "What was the total net interest income recorded by Scotiabank in its 2025 financial statements?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "net interest income",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_90",
+      "Scotia_Annual_Report_2025_chunk_78",
+      "Scotia_Annual_Report_2025_chunk_92"
+    ],
+    "reference_answer": "Scotiabank reported net interest income of $21,522 million CAD for the fiscal year ended October 31, 2025, an increase of $2,270 million (or ~11.8%) compared with $19,252 million in 2024. The figure appears in Scotiabank's Financial Highlights (T1), Group Financial Performance (T12), and Overview of Performance sections of the 2025 Annual Report. The bank's net interest margin also improved to 2.33% (vs. 2.16% in 2024). The average balance sheet disclosure (T13) provides a breakdown of NII by asset/liability category, with total average earning assets of $1,349.6B generating $57.6B in interest income.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_1",
+      "Scotia_Annual_Report_2025_narrative_84"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_85"
+    ]
+  },
+  {
+    "question_id": "Q22",
+    "question": "How did Scotiabank's reported net income evolve between 2024 and 2025, and what drove the change?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "net income after tax",
+      "financial highlights",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_78",
+      "Scotia_Annual_Report_2025_chunk_89",
+      "Scotia_Annual_Report_2025_chunk_81",
+      "Scotia_Annual_Report_2025_chunk_90"
+    ],
+    "reference_answer": "Scotiabank's reported net income decreased from $7,892 million in fiscal 2024 to $7,758 million in fiscal 2025, a decline of $134 million (approximately 1.7%). The decrease occurred despite a $4,071 million increase in total revenue (from $33,670M to $37,741M), driven mainly by: (i) a higher provision for credit losses ($4,714M vs $4,051M), (ii) higher non-interest expenses ($22,518M vs $19,695M), and (iii) a significant increase in the effective tax rate (26.2% vs 20.5%). These pressures more than offset positive contributions including $338 million after-tax from the KeyCorp associate investment (completed Dec 27, 2024) and net income of $74 million from divested operations (Colombia, Costa Rica, Panama and CrediScotia Peru). On an adjusted basis, net income rose to $9,510M (vs. $8,627M in 2024), and diluted EPS declined to $5.67 (vs. $5.87). The decline in reported net income also reflected the absence of certain favorable items recorded in 2024.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_3",
+      "Scotia_Annual_Report_2025_row_21_5",
+      "Scotia_Annual_Report_2025_row_39_0",
+      "Scotia_Annual_Report_2025_row_39_18",
+      "Scotia_Annual_Report_2025_row_45_3"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_74"
+    ]
+  },
+  {
+    "question_id": "Q23",
+    "question": "What was the diluted Earnings Per Share (EPS) reported by Scotiabank for the fiscal year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "diluted EPS",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_78"
+    ],
+    "reference_answer": "Scotiabank reported diluted earnings per share of $5.67 CAD for fiscal year 2025 (year ended October 31, 2025), compared with $5.87 in 2024 — a decrease of $0.20 or approximately 3.4%. Basic EPS was $5.84 (vs. $5.94 in 2024). On an adjusted basis, diluted EPS was $7.09 (vs. $6.47 in 2024), representing 9.6% growth. The figures appear in Scotiabank's Financial Highlights (T1) and Overview of Performance sections of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_17_0",
+      "Scotia_Annual_Report_2025_row_17_2",
+      "Scotia_Annual_Report_2025_row_21_10",
+      "Scotia_Annual_Report_2025_row_21_11",
+      "Scotia_Annual_Report_2025_row_28_4"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_row_21_11"
+    ]
+  },
+  {
+    "question_id": "Q24",
+    "question": "Did Scotiabank's International Banking division show a net income growth or decline in 2025 according to their segment analysis?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "International Banking",
+      "net income",
+      "segment analysis",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_113",
+      "Scotia_Annual_Report_2025_chunk_114",
+      "Scotia_Annual_Report_2025_chunk_56",
+      "Scotia_Annual_Report_2025_chunk_69"
+    ],
+    "reference_answer": "Yes, Scotiabank's International Banking division showed net income growth in fiscal 2025. Reported net income increased from $2,706 million in 2024 to $2,789 million in 2025, a rise of $83 million (+3.1%). Net income attributable to common shareholders grew from $2,580 million to $2,631 million (+$51M, or +2.0%). The segment's return on equity improved to 14.6% (vs. 13.5% in 2024). Growth was driven by higher non-interest income ($3,177M vs. $2,999M) and a stable net interest income contribution ($8,866M), partially offset by a slightly higher provision for credit losses ($2,309M vs. $2,285M). On an adjusted basis, International Banking net income attributable to common shareholders was $2,651 million (vs. $2,603 million in 2024).",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_51_7",
+      "Scotia_Annual_Report_2025_row_45_7"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_121"
+    ]
+  },
+  {
+    "question_id": "Q25",
+    "question": "What was the final productivity or efficiency ratio reported by Scotiabank for the full year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "productivity ratio",
+      "efficiency ratio",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_43"
+    ],
+    "reference_answer": "Scotiabank reported a productivity ratio of 59.7% for the full fiscal year 2025 (year ended October 31, 2025), compared with 58.5% in 2024 — a deterioration of 1.2 percentage points. The productivity ratio is Scotiabank's equivalent of the efficiency ratio (non-interest expenses divided by total revenue, on a taxable equivalent basis). The figure appears in Scotiabank's Financial Highlights (T1) in the 2025 Annual Report. Note: Scotiabank does not use the term 'efficiency ratio'; it reports the 'productivity ratio' as its primary efficiency metric.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_14",
+      "Scotia_Annual_Report_2025_row_39_1"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_row_21_14"
+    ]
+  },
+  {
+    "question_id": "Q26",
+    "question": "What was the total amount of non-GAAP adjusting items impacting Scotiabank's non-interest expenses in 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "non-GAAP",
+      "adjusting items",
+      "non-interest expenses",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_99",
+      "Scotia_Annual_Report_2025_chunk_636",
+      "Scotia_Annual_Report_2025_chunk_160"
+    ],
+    "reference_answer": "Scotiabank reported total non-GAAP adjusting items impacting non-interest expenses of $1,937 million pre-tax in fiscal 2025, compared with $734 million in 2024. The 2025 adjustments comprised: (i) $1,422 million impairment loss related to divestitures and wind-down of operations (primarily the announced sale of banking operations in Colombia, Costa Rica and Panama); (ii) $373 million restructuring charge and severance provisions ($270 million after-tax) mainly for workforce reductions across global operations; (iii) $74 million legal provision; and (iv) $68 million amortization of acquisition-related intangible assets. After these adjustments, Scotiabank's reported non-interest expenses of $22,518 million decreased to $20,581 million on an adjusted basis (vs. $18,961 million adjusted in 2024). The breakdown appears in Scotiabank's Non-Interest Expenses section and in Note 22 (Provisions – Restructuring Charge) of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_5",
+      "Scotia_Annual_Report_2025_row_21_47",
+      "Scotia_Annual_Report_2025_row_24_12",
+      "Scotia_Annual_Report_2025_row_24_16",
+      "Scotia_Annual_Report_2025_row_25_14"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_50"
+    ]
+  },
+  {
+    "question_id": "Q27",
+    "question": "What was the exact dollar value of Provision for Credit Losses (PCL) recorded by Scotiabank in fiscal 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "provision for credit losses",
+      "PCL",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_90",
+      "Scotia_Annual_Report_2025_chunk_78"
+    ],
+    "reference_answer": "Scotiabank recorded a provision for credit losses (PCL) of $4,714 million CAD in fiscal year 2025 (year ended October 31, 2025), an increase of $663 million (or ~16.4%) compared with $4,051 million in 2024. The PCL comprised $581 million on performing loans (Stage 1 and 2) and $4,133 million on impaired loans (Stage 3). As a percentage of average net loans and acceptances, the annualized PCL ratio rose to 0.62% (vs. 0.53% in 2024). The figure appears in Scotiabank's Financial Highlights (T1), Group Financial Performance (T12), and Overview of Performance sections of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_4",
+      "Scotia_Annual_Report_2025_row_45_4"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_90"
+    ]
+  },
+  {
+    "question_id": "Q28",
+    "question": "Did Scotiabank outline any specific operational risks regarding digital banking security or cyber threats in its 2025 notes?",
+    "category": "Risk_Compliance",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "operational risks",
+      "digital banking",
+      "cyber threats",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_250",
+      "Scotia_Annual_Report_2025_chunk_222",
+      "Scotia_Annual_Report_2025_chunk_350",
+      "Scotia_Annual_Report_2025_chunk_22"
+    ],
+    "reference_answer": "Yes. Scotiabank outlined cyber and digital banking security risks in its 2025 disclosures. In its Top and Emerging Risks section, the bank identifies 'Evolving Cyber Threats' as a key risk driver: as technology advances, cyber threats continue to evolve in sophistication and scope, impacting the Bank directly and/or its third-party service providers, with attacks on critical functions or infrastructure (including client-facing systems) potentially resulting in financial loss, data theft, regulatory consequences, reputational damage, or operational disruption. Cyber Security & Information Technology (IT) is classified as a Non-Financial Risk type (risks associated with information security breaches and IT failures), for which the Bank has low risk appetite. The Risk Monitoring section defines Cyber Security Risk as 'risk of loss of confidentiality, integrity, or availability of information, data, or information systems' and IT Risk as 'risk of financial loss, disruption, or damage to reputation from failure of IT systems'. At the governance level, a new Technology Committee was established in 2025 to oversee the Bank's technology strategy, technology-based risk management, cybersecurity, and the ethical use of data and AI.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_narrative_6",
+      "Scotia_Annual_Report_2025_narrative_18",
+      "Scotia_Annual_Report_2025_narrative_106",
+      "Scotia_Annual_Report_2025_narrative_113",
+      "Scotia_Annual_Report_2025_narrative_115"
+    ],
+    "mapping_method": "fuzzy",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_narrative_339"
+    ]
+  },
+  {
+    "question_id": "Q29",
+    "question": "What was the return on equity (ROE) percentage achieved by Scotiabank for the full year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "return on equity",
+      "ROE",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_78",
+      "Scotia_Annual_Report_2025_chunk_90"
+    ],
+    "reference_answer": "Scotiabank reported a return on equity (ROE) of 9.7% for the full fiscal year 2025 (year ended October 31, 2025), compared with 10.2% in 2024. On an adjusted basis, ROE was 11.8% (vs. 11.3% in 2024). The bank's stated objective was an ROE of 14%+, which was not met on either a reported (9.7%) or adjusted (11.8%) basis. By operating segment, ROE was 16.3% for Canadian Banking, 14.6% for International Banking, 16.0% for Global Wealth Management, and 12.8% for Global Banking and Markets. The figure appears in Scotiabank's Financial Highlights (T1), Group Financial Performance (T12), and Overview of Performance sections of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_17_5",
+      "Scotia_Annual_Report_2025_row_17_0",
+      "Scotia_Annual_Report_2025_row_28_4",
+      "Scotia_Annual_Report_2025_row_28_7",
+      "Scotia_Annual_Report_2025_row_45_10"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_row_21_12"
+    ]
+  },
+  {
+    "question_id": "Q30",
+    "question": "What was the total volume of deposits held on Scotiabank's balance sheet at the end of fiscal 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "SCOTIA",
+    "expected_document_id": "Scotia_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "deposits",
+      "balance sheet",
+      "2025",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_164",
+      "Scotia_Annual_Report_2025_chunk_403",
+      "Scotia_Annual_Report_2025_chunk_460",
+      "Scotia_Annual_Report_2025_chunk_630"
+    ],
+    "reference_answer": "Scotiabank reported total deposits of $966,279 million CAD on its balance sheet as at October 31, 2025, compared with $943,849 million as at October 31, 2024 — an increase of $22,430 million (approximately 2.4%). The growth was driven mainly by higher business and government deposits ($28 billion, notably in the U.S., Europe, Canada and Latin America) and personal deposits ($3 billion, mainly in Latin America), partly offset by lower deposits from financial institutions (mainly in Asia). The figure appears in Scotiabank's Financial Highlights (T1) under 'Financial position information' and is discussed in the Statement of Financial Position – Liabilities section of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "Scotia_Annual_Report_2025_row_21_22",
+      "Scotia_Annual_Report_2025_row_62_11",
+      "Scotia_Annual_Report_2025_row_113_1",
+      "Scotia_Annual_Report_2025_row_133_9",
+      "Scotia_Annual_Report_2025_row_172_11"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "Scotia_Annual_Report_2025_row_21_22"
+    ]
+  },
+  {
+    "question_id": "Q31",
+    "question": "What are the total reported assets for BMO in its latest 2025 financial statements?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "total assets",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_140",
+      "BMO_Annual_Report_2025_chunk_372",
+      "BMO_Annual_Report_2025_chunk_57",
+      "BMO_Annual_Report_2025_chunk_322"
+    ],
+    "reference_answer": "BMO reported total assets of $1,476,802 million CAD as at October 31, 2025, compared with $1,409,647 million as at October 31, 2024 — an increase of $67,155 million (approximately 4.8%). The figure appears in BMO's Summary Balance Sheet (Financial Condition Review) and the Consolidated Balance Sheet in the 2025 Annual Report. Key components included securities ($423,476M), net loans and acceptances ($677,872M), securities borrowed or purchased under resale agreements ($129,421M), cash and equivalents ($70,322M), and derivative instruments ($57,151M). Note: BMO also discloses 'gross assets' of $1,493,811M in its Asset Encumbrance table, which includes off-balance sheet assets and is not equivalent to total balance sheet assets.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_57_7",
+      "BMO_Annual_Report_2025_row_24_46"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_row_57_7"
+    ]
+  },
+  {
+    "question_id": "Q32",
+    "question": "What was the total revenue generated by BMO's Wealth Management division for the full year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "revenue",
+      "Wealth Management",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_605",
+      "BMO_Annual_Report_2025_chunk_118"
+    ],
+    "reference_answer": "BMO's Wealth Management division generated total revenue of $5,302 million CAD in fiscal 2025 (year ended October 31, 2025), comprising net interest income of $1,020 million and non-interest revenue of $4,282 million. The segment reported net income of $1,381 million, up $314 million (+29%) from the prior year (per BMO's Additional Financial Metrics). Revenue growth was driven by higher assets under management reflecting robust market activity and strong net asset flows, partially offset by an industry-wide reduction in asset yields and declining interest rates. The figures appear in Note 25 (Operating and Geographic Segmentation) and the Business Environment and Outlook section of BMO's 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_24_4",
+      "BMO_Annual_Report_2025_row_39_12",
+      "BMO_Annual_Report_2025_row_89_1",
+      "BMO_Annual_Report_2025_row_93_13",
+      "BMO_Annual_Report_2025_row_93_14"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_124"
+    ]
+  },
+  {
+    "question_id": "Q33",
+    "question": "How does BMO define or calculate its adjusted net income metric within the footnotes of its 2025 highlights?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "adjusted net income",
+      "footnotes",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [],
+    "reference_answer": "",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_narrative_56",
+      "BMO_Annual_Report_2025_narrative_58",
+      "BMO_Annual_Report_2025_narrative_60",
+      "BMO_Annual_Report_2025_narrative_62"
+    ],
+    "mapping_method": "manual",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q34",
+    "question": "What was the total value of Provisions for Credit Losses (PCL) recorded in BMO's 2025 financial highlights?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "provisions for credit losses",
+      "PCL",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_59",
+      "BMO_Annual_Report_2025_chunk_49",
+      "BMO_Annual_Report_2025_chunk_64"
+    ],
+    "reference_answer": "BMO defines 'adjusted net income' as a non-GAAP measure that removes certain specified items from reported net income — specifically adjusting items impacting revenue, non-interest expense and income taxes. According to BMO's Non-GAAP and Other Financial Measures section, adjusted results 'remove certain specified items from revenue, non-interest expense and income taxes' to permit readers to assess the impact of those items on results and better assess underlying ongoing business performance. The adjusting items (detailed in Table 4) include legal provisions/reversals, FDIC special assessment, impact of alignment of accounting policies, and amortization of acquisition-related intangible assets. In fiscal 2025, BMO's reported net income was $8,725 million and adjusted net income was $9,248 million (with the difference driven mainly by items such as the write-down of goodwill related to the announced sale of branches). BMO notes that adjusted measures are non-GAAP and should be read together with GAAP results.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_24_9",
+      "BMO_Annual_Report_2025_row_24_13",
+      "BMO_Annual_Report_2025_row_202_10",
+      "BMO_Annual_Report_2025_row_202_2",
+      "BMO_Annual_Report_2025_narrative_60"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_56",
+      "BMO_Annual_Report_2025_row_24_13"
+    ]
+  },
+  {
+    "question_id": "Q35",
+    "question": "What was the specific dollar volume of deposits reported by BMO at the end of the fiscal year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "deposits",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_140",
+      "BMO_Annual_Report_2025_chunk_372",
+      "BMO_Annual_Report_2025_chunk_57",
+      "BMO_Annual_Report_2025_chunk_322"
+    ],
+    "reference_answer": "BMO reported total deposits of $976,202 million CAD as at October 31, 2025, compared with $982,440 million as at October 31, 2024 — a decrease of $6,238 million (approximately 0.6%). The figure appears in BMO's Summary Balance Sheet (Financial Condition Review) and the Consolidated Balance Sheet in the 2025 Annual Report. Deposits are BMO's largest liability category, representing approximately 66% of total liabilities and equity.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_10_1",
+      "BMO_Annual_Report_2025_row_24_50",
+      "BMO_Annual_Report_2025_row_57_9",
+      "BMO_Annual_Report_2025_row_59_4",
+      "BMO_Annual_Report_2025_row_83_13"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_row_57_9"
+    ]
+  },
+  {
+    "question_id": "Q36",
+    "question": "What was the return on equity (ROE) percentage achieved by BMO for the full year 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "return on equity",
+      "ROE",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_67",
+      "BMO_Annual_Report_2025_chunk_52"
+    ],
+    "reference_answer": "BMO reported a return on equity (ROE) of 10.6% for the full fiscal year 2025 (year ended October 31, 2025), compared with 9.7% in 2024. On an adjusted basis, ROE was 11.3% (vs. 9.8% in 2024). ROE is calculated as net income available to common shareholders divided by average common shareholders' equity (2025: $8,273M / $78,126M). BMO also reported a return on tangible common equity (ROTCE) of 14.3% (vs. 13.5% in 2024), and adjusted ROTCE of 14.7% (vs. 13.1%). The figures appear in BMO's Return on Equity and Return on Tangible Common Equity table (Table 6) in the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_10_1",
+      "BMO_Annual_Report_2025_row_10_2",
+      "BMO_Annual_Report_2025_row_12_3",
+      "BMO_Annual_Report_2025_narrative_11",
+      "BMO_Annual_Report_2025_narrative_52"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_52"
+    ]
+  },
+  {
+    "question_id": "Q37",
+    "question": "What dividend per share did BMO declare in fiscal 2025, and what was its payout ratio",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "dividend per share",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_169",
+      "BMO_Annual_Report_2025_chunk_324"
+    ],
+    "reference_answer": "BMO declared dividends per common share of $6.44 CAD in fiscal 2025, an increase of 5% from $6.12 in fiscal 2024. The dividend payout ratio was 56.2% of reported net income and 53% of adjusted net income — above BMO's target dividend payout range of 40% to 50% (on an adjusted basis). On December 4, 2025, BMO declared a quarterly dividend of $1.67 per common share (up $0.04 from the prior quarter and $0.08, or 5%, from the prior year), payable February 26, 2026 to shareholders of record on January 30, 2026. The annualized dividend yield was approximately 4% based on the closing share price as at October 31, 2025. These figures appear in BMO's Dividends section and the Ten-Year Statistical Review (Other Financial Measures) of the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_24_26",
+      "BMO_Annual_Report_2025_narrative_189"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_189"
+    ]
+  },
+  {
+    "question_id": "Q38",
+    "question": "What were the total non-interest expenses reported by BMO in its 2025 operational breakdown?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "non-interest expenses",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_82",
+      "BMO_Annual_Report_2025_chunk_56",
+      "BMO_Annual_Report_2025_chunk_63"
+    ],
+    "reference_answer": "BMO reported total non-interest expenses of $21,107 million CAD in fiscal 2025 (year ended October 31, 2025), an increase of $1,608 million (or 8%) compared with $19,499 million in 2024. The breakdown (Table 14, pre-tax basis) comprised: employee compensation of $12,018 million (salaries $6,238M, performance-based compensation $4,216M, benefits $1,564M), premises and equipment of $4,468 million, amortization of intangible assets of $1,152 million, and other expenses of $3,469 million (advertising and business development $806M, professional fees $678M, communications $342M, association/clearing/regulator fees $302M, other $1,341M). On an adjusted basis (excluding acquisition/integration costs, amortization of acquisition-related intangibles, divestitures, FDIC special assessment, and accounting policy alignment), non-interest expense was $20,435 million (vs. $18,989M in 2024). BMO's reported efficiency ratio was 58.2% and adjusted efficiency ratio was 56.3%.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_24_7",
+      "BMO_Annual_Report_2025_row_56_4",
+      "BMO_Annual_Report_2025_narrative_60",
+      "BMO_Annual_Report_2025_narrative_62",
+      "BMO_Annual_Report_2025_narrative_78"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_78"
+    ]
+  },
+  {
+    "question_id": "Q39",
+    "question": "Did BMO provide any qualitative details regarding its integration costs or corporate acquisitions during 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "integration costs",
+      "acquisitions",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_46",
+      "BMO_Annual_Report_2025_chunk_61",
+      "BMO_Annual_Report_2025_chunk_485"
+    ],
+    "reference_answer": "Yes. BMO provided qualitative and quantitative details on acquisitions and integration costs in 2025. On November 1, 2025, BMO completed the acquisition of Burgundy Asset Management Ltd., a leading independent Canadian wealth manager serving high net worth and ultra-high net worth clients. The purchase price was $654 million CAD (cash of $61 million plus shares of a BMO subsidiary exchangeable into BMO common shares valued at $593 million at close), and included a holdback tied to Burgundy maintaining certain assets under management 18 months post-closing as well as a potential earn-out based on growth targets. Acquisition and integration costs were recorded in the Wealth Management segment as an adjusting item, totaling $13 million in fiscal 2025 (vs. $129 million in 2024). Under BMO's accounting policy (Note 9), acquisition-related costs are recognized as an expense in the period incurred, identifiable assets and liabilities are measured at fair value at the acquisition date, and goodwill is the excess of consideration over net fair value of identifiable net assets.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_56_8",
+      "BMO_Annual_Report_2025_row_57_3",
+      "BMO_Annual_Report_2025_row_57_12",
+      "BMO_Annual_Report_2025_row_64_22",
+      "BMO_Annual_Report_2025_row_80_5"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_46",
+      "BMO_Annual_Report_2025_narrative_211"
+    ]
+  },
+  {
+    "question_id": "Q40",
+    "question": "What was the net income recorded by BMO's Canadian Personal and Commercial Banking unit in 2025?",
+    "category": "Factual_Financial",
+    "expected_bank": "BMO",
+    "expected_document_id": "BMO_Annual_Report_2025",
+    "ground_truth_keywords": [
+      "net income",
+      "Canadian P&C",
+      "2025",
+      "BMO"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_605"
+    ],
+    "reference_answer": "BMO's Canadian Personal and Commercial Banking (Canadian P&C) segment reported net income of $3,295 million CAD in fiscal 2025 (year ended October 31, 2025). This compares with $3,457 million in 2024, a decrease of $162 million (or approximately 5%). The segment contributed the largest share of BMO's total reported net income of $8,725 million, ahead of U.S. Banking ($2,810M), Capital Markets ($1,977M), Wealth Management ($1,381M), and Corporate Services (net loss of $738M). The figure appears in Note 25 (Results and Average Assets by Operating Segment) and in the 2025 Operating Segments Performance Review of BMO's 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [
+      "BMO_Annual_Report_2025_row_39_9",
+      "BMO_Annual_Report_2025_row_202_10"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": [
+      "BMO_Annual_Report_2025_narrative_71"
+    ]
+  },
+  {
+    "question_id": "Q41",
+    "question": "Between BMO and Scotiabank, which bank allocated a higher total dollar amount towards Provisions for Credit Losses (PCL) in fiscal 2025?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "BMO_Annual_Report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "PCL",
+      "provisions for credit losses",
+      "BMO",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_56",
+      "BMO_Annual_Report_2025_chunk_63",
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_90"
+    ],
+    "reference_answer": "Scotiabank allocated a higher total dollar amount to Provisions for Credit Losses (PCL) than BMO in fiscal 2025. Scotiabank reported PCL of $4,714 million CAD (year ended October 31, 2025), comprising $581 million on performing loans (Stage 1 and 2) and $4,133 million on impaired loans (Stage 3). BMO reported PCL of $3,617 million CAD (year ended October 31, 2025), comprising $3,147 million on impaired loans and $470 million on performing loans. The difference is $1,097 million (approximately 30% higher for Scotiabank). The figures appear in BMO's Summary Income Statement (Table 3) / Non-GAAP reconciliation (Table 4) and Scotiabank's Financial Highlights (T1) / Group Financial Performance (T12) in the respective 2025 Annual Reports.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q42",
+    "question": "How does the 2025 financial net income of TD compare to the net income reported by Scotiabank?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "TD_Annual_report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "net income",
+      "TD",
+      "Scotiabank",
+      "2025"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67",
+      "TD_Annual_report_2025_chunk_95",
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_78"
+    ],
+    "reference_answer": "TD reported net income of $20,538 million CAD for fiscal 2025 (year ended October 31, 2025), approximately 2.6× higher than Scotiabank's reported net income of $7,758 million CAD for the same period. The gap narrows significantly on an adjusted basis: TD's adjusted net income was $15,025 million vs. Scotiabank's $9,510 million, a ratio of ~1.6×. The difference in reported figures is largely explained by: (i) TD's $8,975 million pre-tax gain on the sale of its Schwab shares (recorded in the Corporate segment), and (ii) the absence in 2025 of the $4,233 million BSA/AML Global Resolution charge that weighed on TD's 2024 results. On Scotiabank's side, reported net income was pressured by $1,937 million in non-GAAP adjusting items (mainly a $1,422M impairment on divestitures and $373M restructuring charges). All figures appear in TD's Financial Highlights (Table in MD&A) and Scotiabank's Financial Highlights (T1).",
+    "relevant_chunk_ids_v2": [
+      "TD_Annual_report_2025_row_241_9",
+      "TD_Annual_report_2025_row_233_9"
+    ],
+    "mapping_method": "manual_verified",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q43",
+    "question": "Which institution achieved a better efficiency or productivity ratio in 2025 between TD and Scotiabank?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "TD_Annual_report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "efficiency ratio",
+      "productivity",
+      "TD",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67",
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_99"
+    ],
+    "reference_answer": "The comparison depends on whether reported or adjusted figures are used. On a reported basis, TD achieved a better efficiency ratio of 49.5% for fiscal 2025, vs. Scotiabank's productivity ratio of 59.7% (lower is better). However, TD's reported figure was significantly boosted by non-recurring items: the $8,975M pre-tax gain on the Schwab share sale and the absence of the 2024 BSA/AML Global Resolution charge. TD's adjusted efficiency ratio (net of insurance service expenses) was 58.4%, essentially flat vs. 58.1% in 2024. Scotiabank's adjusted productivity ratio was 54.5%, an improvement from 56.1% in 2024. On an adjusted basis, Scotiabank (54.5%) outperformed TD (58.4%). Note: TD reports an 'efficiency ratio' while Scotiabank reports a 'productivity ratio' — these are equivalent metrics (non-interest expenses divided by total revenue on a taxable equivalent basis), but with different adjustment definitions, so a direct reported-to-reported comparison is misleading.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q44",
+    "question": "Comparing the 2025 financial highlights, did BMO or Scotiabank report a larger volume of customer deposits?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "BMO_Annual_Report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "customer deposits",
+      "BMO",
+      "Scotiabank",
+      "2025"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_140",
+      "BMO_Annual_Report_2025_chunk_372",
+      "Scotia_Annual_Report_2025_chunk_42"
+    ],
+    "reference_answer": "BMO reported a slightly larger volume of customer deposits than Scotiabank in fiscal 2025. BMO's total deposits were $976,202 million CAD as at October 31, 2025, compared with Scotiabank's $966,279 million CAD — a difference of $9,923 million (approximately 1.0% higher for BMO). Both figures appear in the banks' respective Financial Highlights / Summary Balance Sheet sections of their 2025 Annual Reports. Note that while BMO's deposit base is slightly larger, Scotiabank's average total deposits for the year were $961.9 billion (T13 Average balance sheet), which is close to BMO's period-end figure.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q45",
+    "question": "Compare the capital adequacy position of BMO and Scotiabank at the end of fiscal 2025, using their CET1 ratios.",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "BMO_Annual_Report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "capital adequacy",
+      "CET1",
+      "BMO",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_324",
+      "BMO_Annual_Report_2025_chunk_140",
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_43"
+    ],
+    "reference_answer": "At the end of fiscal 2025 (October 31, 2025), BMO and Scotiabank reported very similar Common Equity Tier 1 (CET1) ratios: BMO at 13.3% and Scotiabank at 13.2%. BMO's CET1 ratio declined slightly from 13.6% in 2024, while Scotiabank's improved marginally from 13.1% in 2024. BMO's Tier 1 Capital ratio was 15.0% and Total Capital ratio 17.3%; Scotiabank reported Tier 1 of 16.4% and Total Capital of 18.4%, reflecting a larger Tier 2 and Additional Tier 1 component. Scotiabank's regulatory target for CET1 (Pillar 1 + 2 DSB under OSFI's Basel III framework) is 11.5%, and its actual ratio of 13.2% represents a buffer of approximately 170 basis points above the target. BMO discloses its CET1 within the 13%+ medium-term objective range discussed in its Financial Objectives.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q46",
+    "question": "What enterprise-wide climate targets and commitments did RBC outline in its 2025 Climate Blueprint?",
+    "category": "Sustainability",
+    "expected_bank": "RBC",
+    "expected_document_id": [
+      "RBC_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "climate mobilization",
+      "RBC",
+      "climate targets"
+    ],
+    "relevant_chunk_ids": [
+      "RBC_Annual_Report_2025_chunk_126",
+      "RBC_Annual_Report_2025_chunk_21",
+      "RBC_Annual_Report_2025_chunk_20",
+      "RBC_Annual_Report_2025_chunk_122"
+    ],
+    "reference_answer": "In its 2025 Climate Blueprint (last revised in 2025), RBC outlines its climate strategy anchored in its Purpose Framework ambition to 'Support the transition to a net-zero economy' through the contribution 'Mobilize Climate Action'. The Climate Blueprint sets enterprise-wide targets including: (i) a commitment of $1 billion in climate investment commitments (fund and direct investments) by 2030 — with $249 million deployed in 2025, $167M in 2024 and $145M in 2023 (cumulative since 2022); and (ii) $100 million in community investments through RBC Tech for Nature by 2025 — achieved at $100M as of October 31, 2025. RBC also commits to integrating climate considerations into its business and operations (including reducing emissions in operations and supply chain), providing financing to support low-carbon energy while continuing to finance current energy needs, and engaging with others to advance climate solutions through convening, economic research, and equity/community investments.",
+    "relevant_chunk_ids_v2": [
+      "RBC_Annual_Report_2025_row_15_4",
+      "RBC_Annual_Report_2025_row_56_0",
+      "RBC_Annual_Report_2025_row_56_1",
+      "RBC_Annual_Report_2025_row_60_15",
+      "RBC_Annual_Report_2025_row_60_18"
+    ],
+    "mapping_method": "substring",
+    "relevant_chunk_ids_v3": [
+      "RBC_Annual_Report_2025_row_56_0"
+    ]
+  },
+  {
+    "question_id": "Q47",
+    "question": "Compare the climate-related financial commitments disclosed by BMO and RBC in their 2025 reports.",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "BMO_Annual_Report_2025",
+      "RBC_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "climate",
+      "ESG",
+      "sustainable finance",
+      "BMO",
+      "RBC"
+    ],
+    "relevant_chunk_ids": [
+      "BMO_Annual_Report_2025_chunk_303",
+      "BMO_Annual_Report_2025_chunk_43",
+      "BMO_Annual_Report_2025_chunk_298",
+      "RBC_Annual_Report_2025_chunk_126",
+      "RBC_Annual_Report_2025_chunk_21"
+    ],
+    "reference_answer": "The two banks disclose climate commitments at different levels of financial specificity. RBC discloses explicit dollar-denominated climate targets in its 2025 Sustainability Report: (i) $1 billion in cumulative climate investment commitments (fund and direct investments) by 2030, with $249 million deployed in 2025 (cumulative since 2022); and (ii) $100 million in community investments through RBC Tech for Nature by 2025, achieved at $100 million as of October 31, 2025 (Table 16). RBC's Climate Blueprint (revised 2025) anchors these targets in its 'Mobilize Climate Action' contribution under its Purpose Framework. BMO, by contrast, discloses qualitative climate commitments in its 2025 Annual Report: a Climate Ambition to be 'our clients' lead partner in their transition to a net zero world', a Climate Transition Action Plan with enterprise-wide and sector-specific steps, metrics and targets (but no dollar figure disclosed in the Annual Report), and a Climate Risk Corporate Standard integrated into its Risk Management Framework. BMO's approach to sustainability is framed in its MD&A 'Our Approach to Sustainability' section, covering sustainable finance, financial inclusion, climate change, human rights and workforce — but does not disclose a specific dollar commitment comparable to RBC's $1B climate investment goal in the 2025 Annual Report.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q48",
+    "question": "Between TD, BMO, and Scotiabank, which bank recorded the highest total reported revenue for the full fiscal year 2025?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "TD_Annual_report_2025",
+      "BMO_Annual_Report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "total revenue",
+      "TD",
+      "BMO",
+      "Scotiabank"
+    ],
+    "relevant_chunk_ids": [
+      "TD_Annual_report_2025_chunk_67",
+      "TD_Annual_report_2025_chunk_436",
+      "TD_Annual_report_2025_chunk_382",
+      "Scotia_Annual_Report_2025_chunk_42",
+      "Scotia_Annual_Report_2025_chunk_90",
+      "BMO_Annual_Report_2025_chunk_56",
+      "BMO_Annual_Report_2025_chunk_63"
+    ],
+    "reference_answer": "Among TD, BMO and Scotiabank, TD recorded the highest total reported revenue for fiscal year 2025 (year ended October 31, 2025). TD's total revenue was $67,777 million CAD, substantially higher than Scotiabank's $37,741 million and BMO's $36,274 million. TD's revenue was approximately 1.8× Scotiabank's and 1.9× BMO's. The gap between Scotiabank and BMO was narrow: Scotiabank led BMO by $1,467 million (approximately 4%). On an adjusted basis, TD's revenue was $61,810 million; BMO's adjusted revenue was $36,274 million (no adjustment to revenue in 2025); and Scotiabank does not report an adjusted revenue figure at the consolidated level in the same format. The figures appear in TD's Financial Highlights / Consolidated Statement of Income, Scotiabank's Financial Highlights (T1) / Group Financial Performance (T12), and BMO's Summary Income Statement (Table 3) in the respective 2025 Annual Reports.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q49",
+    "question": "What major international footprint changes did Scotiabank execute in fiscal 2025, and how did this compare to TD's U.S. balance sheet restructuring?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "TD_Annual_report_2025",
+      "Scotia_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "divestitures",
+      "international operations",
+      "business strategy",
+      "U.S. balance sheet restructuring",
+      "SCOTIA",
+      "TD"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_89",
+      "Scotia_Annual_Report_2025_chunk_82",
+      "Scotia_Annual_Report_2025_chunk_717",
+      "Scotia_Annual_Report_2025_chunk_160",
+      "TD_Annual_report_2025_chunk_138"
+    ],
+    "reference_answer": "Scotiabank executed two major international divestitures in fiscal 2025. On January 6, 2025, it announced the sale of its banking operations in Colombia, Costa Rica and Panama to Davivienda Group — completed on December 1, 2025 — in exchange for an approximately 20% ownership stake in the newly combined entity (14.99% voting common shares). On February 28, 2025, it completed the sale of CrediScotia Financiera S.A. (Peru). Scotiabank recorded a $1,422 million impairment loss related to these divestitures, plus $373 million in restructuring/severance charges for right-sizing related operations across its global footprint. The divested operations contributed $85 million net income in 2025 (vs. a $61 million loss in 2024). In comparison, TD executed a U.S. balance sheet restructuring program rather than exiting international markets: it achieved a 10% asset reduction, created ~US$52 billion of headroom to its asset limitation, exited ~US$22 billion of non-core loans (including the sale of a US$9 billion Correspondent Mortgage portfolio and wind-down of a US$3 billion Retail Card Services business), and completed an investment portfolio repositioning that generated a US$500 million pre-tax NII benefit in fiscal 2025. While Scotiabank divested international banking operations to refocus its footprint, TD restructured its U.S. balance sheet in-place to comply with regulatory asset limits while simplifying the franchise.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  },
+  {
+    "question_id": "Q50",
+    "question": "Which of the four banks disclosed explicit dollar-denominated sustainable finance targets in their 2025 reports, and what are those targets?",
+    "category": "Multi_Document",
+    "expected_bank": "MULTI",
+    "expected_document_id": [
+      "TD_Annual_report_2025",
+      "BMO_Annual_Report_2025",
+      "Scotia_Annual_Report_2025",
+      "RBC_Annual_Report_2025"
+    ],
+    "ground_truth_keywords": [
+      "PCL",
+      "sustainable finance",
+      "Scope 3",
+      "quantitative tables"
+    ],
+    "relevant_chunk_ids": [
+      "Scotia_Annual_Report_2025_chunk_25",
+      "RBC_Annual_Report_2025_chunk_126",
+      "BMO_Annual_Report_2025_chunk_303",
+      "TD_Annual_report_2025_chunk_362"
+    ],
+    "reference_answer": "Among the four banks, only Scotiabank and RBC disclose explicit dollar-denominated sustainable finance targets in their 2025 reports. Scotiabank (Sustainability Highlights) targets: $500 million by 2030 through ScotiaRISE (community investment), $350 billion by 2030 in climate-related finance, a $100 million program with the Canada Infrastructure Bank to finance energy retrofits, and $5.7 billion of offerings issued under its Sustainable Issuance Framework. RBC (Table 16, Sustainability Report) targets: $1 billion in cumulative climate investment commitments (fund and direct investments) by 2030 — with $249M deployed in 2025 — and $100 million in community investments through RBC Tech for Nature by 2025 (achieved at $100M). BMO does NOT disclose a dollar-denominated sustainable finance target in its 2025 Annual Report; its Climate Ambition (chunk_303) is qualitative, framed around a Climate Transition Action Plan without a published dollar commitment. TD similarly does not disclose explicit dollar-denominated sustainable finance targets in its 2025 Annual Report: its E&S metrics and targets are directed to a separate 'annual sustainability reporting suite' informed by GRI, SASB and TCFD (chunk_362), outside the annual report itself.",
+    "relevant_chunk_ids_v2": [],
+    "mapping_method": "multi_skip",
+    "relevant_chunk_ids_v3": []
+  }
+]
